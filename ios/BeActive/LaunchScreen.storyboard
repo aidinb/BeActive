@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iIm-W8-ojb"/>
+                        <viewControllerLayoutGuide type="bottom" id="vMV-CD-Dhj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SplashBack" translatesAutoresizingMaskIntoConstraints="NO" id="7tB-0o-Gmz">
+                                <rect key="frame" x="-258" y="-1121" width="1684" height="2130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="HNz-6e-iu4">
+                                <rect key="frame" x="107" y="417" width="200" height="62.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" image="PoweredByLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Igu-8Y-GeV">
+                                <rect key="frame" x="158" y="827" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Powered by:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SpL-NJ-Mpm">
+                                <rect key="frame" x="20" y="817" width="80" height="19"/>
+                                <color key="textColor" red="0.96470588235294119" green="0.62352941176470589" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SpL-NJ-Mpm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="Nlj-ZE-SZX"/>
+                            <constraint firstItem="HNz-6e-iu4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cMs-MQ-jcA"/>
+                            <constraint firstItem="HNz-6e-iu4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="h4O-fa-mMw"/>
+                            <constraint firstItem="HNz-6e-iu4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kaf-Hy-NU9"/>
+                            <constraint firstAttribute="bottom" secondItem="SpL-NJ-Mpm" secondAttribute="bottom" constant="60" id="q1O-tp-OVY"/>
+                            <constraint firstItem="HNz-6e-iu4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="uBz-9Q-awG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44.615384615384613" y="368.2464454976303"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppLogo" width="200" height="62.5"/>
+        <image name="PoweredByLogo" width="150" height="82"/>
+        <image name="SplashBack" width="500" height="500"/>
+    </resources>
+</document>
